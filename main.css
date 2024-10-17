@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+
+.EFood {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign {
+    width: 120px;
+    height: 50.41px;
+    top: -2756.64px;
+    gap: 0px;
+    border-radius: 5px;
+    background: #fff;
+    background: #FF7A50;
+    border: none;
+    color: #fff;
+    box-shadow: 3px 3px 10px #FF7A50;
+    transition: 300ms;
+
+}
+
+.sign:hover {
+    transition: 300ms;
+    background-color: #ffff;
+    border: 2px solid #FF7A50;
+    color: #FF7A50;
+    box-shadow: 0px 0px 0px #FF7A50;
+
+}
+
+.span {
+    color: #FF7A50;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+
+
+}
+
+.food {
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    width: 530px;
+
+}
+
+.par {
+    width: 513px;
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.Explore {
+    width: 163px;
+    height: 50px;
+    background-color: #FF7A50;
+    border: none;
+    color: white;
+    margin-top: 45px;
+    box-shadow: 3px 3px 10px #FF7A50;
+    border-radius: 5px;
+
+}
+
+.dow {
+    background-color: transparent;
+    border: none;
+    width: 135px;
+    height: 23.72px;
+
+
+}
+
+.Explore:hover {
+    transition: 300ms;
+    background-color: #ffff;
+    border: 2px solid #FF7A50;
+    color: #FF7A50;
+    box-shadow: 0px 0px 0px #FF7A50;
+}
+
+.doremi {
+    display: flex;
+}
+
+.left {
+
+    margin-top: 213px;
+}
+
+.right {
+    margin-top: 97px;
+}
+
+.fasol {
+    display: flex;
+}
+
+.ert {
+    color: #FF7A50;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.low {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    width: 384px;
+    margin-top: 192px;
+
+}
+
+.we {
+    width: 449px;
+    margin-top: 95px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.pravo {
+    margin-left: 137px;
+
+}
+
+.see {
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    background-color: #FF7A50;
+    color: #fff;
+    margin-top: 141px;
+    box-shadow: 3px 3px 10px #FF7A50;
+}
+
+.see:hover {
+    transition: 300ms;
+    background-color: #ffff;
+    border: 2px solid #FF7A50;
+    color: #FF7A50;
+    box-shadow: 0px 0px 0px #FF7A50;
+}
+
+.res {
+    color: #FF7A50;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.top {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 156px;
+}
+
+.card {
+    width: 361px;
+    border-radius: 53px 5px 0px 0px;
+    background-color: #fff;
+    transition: 300ms;
+
+}
+
+h3 {
+    margin-top: 22px;
+    padding: 0 10px;
+
+
+}
+
+main {
+    background: #F9FAFF;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.timer-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 20px 10px;
+}
+
+
+.p {
+    position: relative;
+    gap: 14px;
+}
+
+.all {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctrel {
+    width: 79px;
+    height: 33px;
+    border-radius: 20px 20px 0px 20px;
+    border: none;
+    transition: 300ms ease;
+    background: #FF7A50;
+
+}
+
+.ctrel:hover {
+    transition: 300ms ease;
+    width: 79px;
+    height: 33px;
+    border-radius: 20px 20px 0px 20px;
+    border: none;
+    box-shadow: 0px 0px 0px #FF7A50;
+    box-shadow: 3px 3px 10px #FF7A50;
+
+}
+
+.card:hover {
+    width: 361px;
+    border-radius: 53px 5px 0px 0px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 300ms;
+}
+
+.download {
+    width: 454px;
+    left: 176px;
+    margin-top: 281px;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.spas {
+    color: #FF7A50;
+    font-family: Rubik;
+    font-size: 36px;
+    line-height: 50px;
+
+
+}
+
+.it {
+    width: 538px;
+    height: 94px;
+    top: 2587px;
+    left: 176px;
+    gap: 0px;
+    opacity: 0.9px;
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.app {
+    width: 135px;
+    margin-top: 30px;
+
+}
+
+.gogl {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.vniz {
+    display: flex;
+}
+
+.pravo2 {
+    margin-top: 162px;
+    margin-left: 40px;
+}
+
+.suu {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center;
+    margin-top: 59px;
+
+}
+
+footer {
+    margin-top: 130px;
+}
+
+.footer-card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+    color: #fff
+    
+    ;
+    align-items: center;
+    width: 1170px;
+    background-color: #FF7A50;
+    margin: 0 auto;
+    padding: 59px 0;
+    border-radius: 30px;
+}
+
+.input-box {
+    position: relative;
+}
+
+
+
+.input {
+    width: 800px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 30px;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+}
+
+.subscrabe {
+    width: 191px;
+    padding: 15px 0;
+    border-radius: 70px;
+    background-color: #FF7A50;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+    transition: 300ms;
+}
+.subscrabe:hover {
+    width: 191px;
+    padding: 15px 0;
+    border-radius: 70px;
+    color: #FF7A50;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 300ms;
+background-color: #fff;
+border: #FF7A50 1px solid;
+
+}
